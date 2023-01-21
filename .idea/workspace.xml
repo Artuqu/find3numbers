@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="310a1ed3-cd2a-4166-b064-0621ce79ea2e" name="Changes" comment="Loop improved">
+    <list default="true" id="310a1ed3-cd2a-4166-b064-0621ce79ea2e" name="Changes" comment="Bug with loop fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/findNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/findNumbers.java" afterDir="false" />
     </list>
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670150517474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bug with loop fixed">
+      <created>1674245488735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674245488735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,18 @@
     <MESSAGE value="full algorithm" />
     <MESSAGE value="Add two exceptions" />
     <MESSAGE value="Loop improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loop improved" />
+    <MESSAGE value="Bug with loop fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug with loop fixed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/findNumbers.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

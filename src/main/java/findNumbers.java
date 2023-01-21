@@ -21,6 +21,8 @@ public class findNumbers {
                         int third = numbers[j];
                         if (first + second + third == k) {
                             isInArray = true;
+                            o = numbers.length;
+                            i = numbers.length;
                             break;
                         }
                     }
