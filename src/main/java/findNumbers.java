@@ -4,8 +4,8 @@ public class findNumbers {
 
 
     static boolean find3numbers(int[] numbers, int k) {
+//  sorting
         Arrays.sort(numbers);
-        boolean isInArray = false;
         if (numbers.length < 3) {
             System.out.println("Array is to short!");
             return false;
@@ -20,15 +20,13 @@ public class findNumbers {
                     for (int j = i + 1; j < numbers.length; j++) {
                         int third = numbers[j];
                         if (first + second + third == k) {
-                            System.out.println("true");
                             return true;
                         }
                     }
                 }
             }
         }
-        System.out.println(isInArray);
-        return isInArray;
+        return false;
     }
 
 
@@ -36,10 +34,10 @@ public class findNumbers {
         int[] toFind = {8, 2, 6, 9, 10, 100, 80, 33, 4, 6, 0, 20};
         int[] toFind2 = {8, 2, 3, 7, 9};
         int[] toFind3 = {7, 9};
-        int k = 13;
+        int k = 3;
 
-
-        find3numbers(toFind2, k);
+        boolean result = find3numbers(toFind, k);
+        System.out.println(result);
 
     }
 
